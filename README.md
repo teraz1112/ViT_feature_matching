@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ## 4) 最小実行例（コピペ可能）
 ```bash
-python main.py pair --scenario orb --target data/samples/target.png --observed data/samples/observed.png --mask data/samples/mask.png --out-dir outputs/demo
+python main.py pair --scenario orb --target data/samples/target.png --observed data/samples/DG/{DGtype}.png --mask data/samples/mask.png --out-dir outputs/demo
 ```
 
 設定ファイルを使う場合:
@@ -35,7 +35,7 @@ python main.py batch --vit-root ../data/ViT --scenarios dino,clip,ours,sift,orb 
 ```
 
 ## 5) データの置き場所（サンプル、取得方法）
-- 最小サンプル: `data/samples/target.png`, `data/samples/observed.png`, `data/samples/mask.png`
+- 最小サンプル: `data/samples/target.png`, `data/samples/DG/{DGtype}.png`, `data/samples/mask.png`
 - 実データ一括処理は `--vit-root` で指定
 - 出力は `--out-dir` / `--out-root` 配下に保存
 
