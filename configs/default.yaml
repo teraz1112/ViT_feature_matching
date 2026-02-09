@@ -1,0 +1,14 @@
+pair:
+  scenario: orb
+  target: data/samples/target.png
+  observed: data/samples/observed.png
+  mask: data/samples/mask.png
+  out_dir: outputs/demo
+  use_camera: false
+  show_on_screen: false
+
+batch:
+  vit_root: ../data/ViT
+  scenarios: dino,clip,ours,sift,orb
+  out_root: outputs/batch
+  show_on_screen: false

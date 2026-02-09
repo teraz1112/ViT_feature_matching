@@ -1,0 +1,10 @@
+numpy
+pillow
+torch
+transformers
+opencv-contrib-python
+scikit-learn
+matplotlib
+pyyaml
+pypylon
+huggingface-hub
