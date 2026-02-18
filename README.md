@@ -1,5 +1,10 @@
 # Pair Correspondence Visualizer
 
+<p align="center">
+  <img src="demo/origami/dino_run_dashboard.png" width="48%">
+  <img src="demo/gen/dino_run_dashboard.png" width="48%">
+</p>
+
 ## 1) これは何か
 - `main.py pair`: 画像ペア（target/observed/mask）から対応推定と可視化を実行
 - `main.py batch`: `data/ViT` 形式のディレクトリを一括処理
@@ -10,7 +15,6 @@
 - Python: 3.10+
 - 主要依存: `torch`, `transformers`, `opencv-contrib-python`, `Pillow`, `scikit-learn`, `matplotlib`
 - カメラ入力を使う場合のみ `pypylon` が必要
-![DINO Run Dashboard](demo/origami/dino_run_dashboard.png)
 
 ## 3) セットアップ（最短手順）
 ```bash
