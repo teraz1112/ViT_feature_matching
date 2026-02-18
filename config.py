@@ -53,11 +53,11 @@ class PairConfig:
 
 _SCENARIOS: dict[str, PairConfig] = {
     "dino": PairConfig(
-        run_name="dino_run",
+        run_name="dino_run", 
         out_dir="outputs",
         crop_mode="scale_then_center_crop",
         encoder="dino",
-        model_name="facebook/dinov3-vitb16-pretrain-lvd1689m",
+        model_name="facebook/dinov3-vits16-pretrain-lvd1689m",
         vit_patch=16,
         long_side=1500,
         pad_to_multiple=True,
